@@ -13,6 +13,7 @@ mod apple_events;
 mod control_server;
 #[cfg(any(target_os = "windows", test))]
 mod graphics;
+mod license;
 mod logging;
 #[cfg(target_os = "macos")]
 mod native_menu;
@@ -55,7 +56,10 @@ impl eframe::App for App {
         }
     }
     fn ui(&mut self, ui: &mut egui::Ui, _frame: &mut eframe::Frame) {
-        self.0.ui(ui);
+        // Without an activated Kojalytics license the window shows the lock screen instead.
+        if license::gate(ui) {
+            self.0.ui(ui);
+        }
     }
     fn on_exit(&mut self) {
         print::finish_pending_jobs();

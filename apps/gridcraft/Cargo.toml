@@ -11,6 +11,9 @@ description = "GridKoja desktop app"
 workspace = true
 
 [dependencies]
+base64 = "0.22"
+ed25519-dalek = { version = "2", default-features = false, features = ["std"] }
+sha2 = "0.11"
 gridcraft-engine = { workspace = true }
 gridcraft-ui-egui = { workspace = true }
 eframe = { workspace = true, features = ["default_fonts", "wgpu", "accesskit", "wayland", "x11"] }
