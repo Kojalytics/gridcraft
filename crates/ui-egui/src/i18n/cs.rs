@@ -460,7 +460,7 @@ pub(super) fn translate(text: &str) -> Option<&'static str> {
         "Hide Sheet" => "Skrýt list",
         "Hierarchy & more" => "Hierarchické a další grafy",
         "Highlighter" => "Zvýrazňovač",
-        "How agents drive GridCraft (MCP / control channel)" => "Jak agenti ovládají GridCraft (MCP / řídicí kanál)",
+        "How agents drive GridKoja (MCP / control channel)" => "Jak agenti ovládají GridKoja (MCP / řídicí kanál)",
         "Import a text or CSV file" => "Importovat textový soubor nebo CSV",
         "Insert\nSlicer" => "Vložit\nprůřez",
         "Insert Function (⇧F3)" => "Vložit funkci (⇧F3)",

@@ -1,4 +1,4 @@
-// TEMPLATE for apps/gridcraft/build.rs (copied from DesignCraft by the release-tooling setup;
+// TEMPLATE for apps/gridcraft/build.rs (copied from DesignKoja by the release-tooling setup;
 // apps/gridcraft didn't exist yet). Move it there and add to apps/gridcraft/Cargo.toml:
 //
 //   [build-dependencies]
@@ -27,10 +27,10 @@ fn main() {
     }
     let mut res = winresource::WindowsResource::new();
     res.set_icon("../../assets/app-icon/gridcraft.ico")
-        .set("ProductName", "GridCraft")
-        .set("FileDescription", "GridCraft spreadsheet")
+        .set("ProductName", "GridKoja")
+        .set("FileDescription", "GridKoja spreadsheet")
         .set("CompanyName", "Learning Machines LLC")
-        .set("LegalCopyright", "Copyright (c) the GridCraft authors. MIT OR Apache-2.0.")
+        .set("LegalCopyright", "Copyright (c) the GridKoja authors. MIT OR Apache-2.0.")
         .set("OriginalFilename", "gridcraft.exe")
         .set("InternalName", "gridcraft");
     if let Err(e) = res.compile() {
