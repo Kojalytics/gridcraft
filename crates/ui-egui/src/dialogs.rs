@@ -1488,7 +1488,7 @@ fn about(ui: &mut egui::Ui, d: &mut Dialog) {
             ui.add_space(4.0);
             ui.label("A clean-room, open-source, Rust-native spreadsheet, published by Kojalytics.");
             ui.label("Based on GridCraft by the ArtCraft team. MIT OR Apache-2.0.");
-            ui.hyperlink_to("kojalytics.com/apps/gridcraft", "https://kojalytics.com/apps/gridcraft");
+            ui.hyperlink_to("kojalytics.com/koja-apps", "https://www.kojalytics.com/koja-apps");
         }
     }
 }

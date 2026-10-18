@@ -174,7 +174,7 @@ fn tree() -> Vec<(&'static str, Vec<Entry>)> {
             vec![
                 ("Agent Control (MCP)…", "dialog:agents", None),
                 ("Contributors…", "dialog:about:Contributors", None),
-                ("GridKoja on kojalytics.com", "url:https://kojalytics.com/apps/gridcraft", None),
+                ("GridKoja on kojalytics.com", "url:https://www.kojalytics.com/koja-apps", None),
             ],
         ),
     ]
