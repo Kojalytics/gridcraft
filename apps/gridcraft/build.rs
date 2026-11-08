@@ -16,7 +16,7 @@ fn main() {
     res.set_icon("../../assets/app-icon/gridcraft.ico")
         .set("ProductName", "GridKoja")
         .set("FileDescription", "GridKoja spreadsheet")
-        .set("CompanyName", "Learning Machines LLC")
+        .set("CompanyName", "Kojalytics")
         .set("LegalCopyright", "Copyright (c) the GridKoja authors. MIT OR Apache-2.0.")
         .set("OriginalFilename", "gridcraft.exe")
         .set("InternalName", "gridcraft");

@@ -15,13 +15,13 @@
 <Wix xmlns="http://wixtoolset.org/schemas/v4/wxs">
   <Package
       Name="GridKoja"
-      Manufacturer="Learning Machines LLC"
+      Manufacturer="Kojalytics"
       Version="$(var.Version)"
-      UpgradeCode="5511327B-F305-41BE-92D0-EB84944E7C4D"
+      UpgradeCode="2EFE6F59-79DF-59C9-9B3C-02B7BF0AF707"
       Scope="perMachine"
       Compressed="yes"
       Language="1033">
-    <SummaryInformation Description="GridKoja spreadsheet" Manufacturer="Learning Machines LLC" />
+    <SummaryInformation Description="GridKoja spreadsheet" Manufacturer="Kojalytics" />
     <!-- Same-version upgrades let successive pre-releases of one X.Y.Z replace each other
          (MSI versions are numeric, so 1.2.3-rc.1 and 1.2.3-rc.2 are both 1.2.3). -->
     <MajorUpgrade AllowSameVersionUpgrades="yes"
@@ -160,7 +160,7 @@
 
   <Fragment>
     <ComponentGroup Id="GridcraftFiles" Directory="INSTALLFOLDER">
-      <Component Id="GridcraftApp" Guid="0507D4B6-12FF-4882-84E1-59083E74A4EB">
+      <Component Id="GridcraftApp" Guid="DB836075-BEC4-52DF-B00F-F49030C8753E">
         <File Id="GridcraftExe" Source="$(var.BinDir)\gridcraft.exe" KeyPath="yes">
           <Shortcut Id="StartMenuShortcut" Directory="ProgramMenuFolder" Name="GridKoja"
               Description="GridKoja spreadsheet" WorkingDirectory="INSTALLFOLDER" Advertise="yes"
